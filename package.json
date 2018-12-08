@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "node-uber": "^2.0.0"
+  },
   "devDependencies": {
-    "typescript": "^3.2.2"
+    "@types/node": "^10.12.12",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "bundle": "webpack --mode=none",
+    "deploy": "npm run tsc && npm run bundle"
   },
   "repository": {
     "type": "git",
