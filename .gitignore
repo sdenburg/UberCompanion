@@ -4,3 +4,6 @@ node_modules/
 # TypeScript
 *.js
 *.js.map
+
+# Config
+UberConfiguration.json
