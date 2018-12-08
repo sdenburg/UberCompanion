@@ -1,0 +1,23 @@
+{
+  "name": "ubercompanion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdenburg/UberCompanion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdenburg/UberCompanion/issues"
+  },
+  "homepage": "https://github.com/sdenburg/UberCompanion#readme"
+}
