@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "google-maps": "^3.3.0",
+    "jquery": "^3.3.1",
     "node-uber": "^2.0.0"
   },
   "devDependencies": {
+    "@types/jquery": "^3.3.22",
     "@types/node": "^10.12.12",
     "typescript": "^3.2.2",
     "webpack": "^4.27.1",
