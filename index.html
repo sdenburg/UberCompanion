@@ -2,23 +2,32 @@
     <head>
         <title>Uber Companion</title>
     </head>
-    <style>
-        /* Always set the map height explicitly to define the size of the div
-         * element that contains the map. */
-        #map {
-          height: 100%;
-        }
-        /* Optional: Makes the sample page fill the window. */
-        html, body {
-          height: 100%;
-          margin: 0;
-          padding: 0;
-        }
-      </style>
     <body>
-        <div>
-            <span>Test</span>
-            <div id="map"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        Configuration
+                    </div>
+                    <form>
+                        <div class="form-row">
+                            <p>
+                                <label for="amount">Price range:</label>
+                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                            </p>
+                            <div id="slider-range" style="width:100%"></div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-primary" id="updateButton">Update</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-fluid">
+                    <div id="map"></div>
+                </div>
+            </div>
         </div>
         <script src="dist/main.js"></script>
     </body>
